@@ -11,7 +11,9 @@
 		/>
 	</head>
 	<body class="bg-dark-subtle">
-		<nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle sticky-top">
+		<nav
+			class="navbar navbar-expand-lg navbar-light bg-primary-subtle sticky-top"
+		>
 			<div class="container-fluid">
 				<a
 					class="navbar-brand text-end text-light-emphasis display-6 display-md-5"
@@ -113,6 +115,14 @@
 
 		<div class="container-md mt-4">
 			<div class="alert alert-primary row" role="alert">
+				<div class="row">
+					<div class="col col-1 align-center align-items-center d-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="32" height="32">
+						<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+						<path
+							d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+						/>
+					</svg></div>
+					<div class="col"
 				Otrolig rea - 10% rabatt på frakt för privatkunder! Gäller
 				endast till och med 2025-01-01. Använd koden "10OFFRESI" i
 				kassan.
@@ -120,7 +130,8 @@
 					>Gäller endast privatkunder. Tillgänglig medan förråden
 					räcker. Inga återbetalningar för beställningar gjorda efter
 					2025-05-15. Får ej kombineras med andra erbjudanden.</small
-				>
+				> </div>
+				</div>
 			</div>
 		</div>
 		<div class="container-fluid container-md bg-dark-subtle">
@@ -134,7 +145,7 @@
 				</h1>
 			</center>
 			<h1 class="display-3">Våra Produkter!</h1>
-			<div id="produkter" class="row g-3">
+			<div id="produkter" class="row g-3 shadow">
 				<div class="card w-2 col col-md-3 col-12" id="prismoid">
 					<img
 						class="card-img-top"
@@ -161,6 +172,17 @@
 							title="Du omredigeras till varukorgen"
 						>
 							Handla nu
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 576 512"
+								height="32"
+								width="32"
+							>
+								<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+								<path
+									d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+								/>
+							</svg>
 						</button>
 					</div>
 				</div>
@@ -249,132 +271,188 @@
 				</div>
 			</div>
 
-			<div id="om" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			<div id="om" class="carousel slide shadow" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Joorn_railway_station.jpg/1920px-Joorn_railway_station.jpg"
+							class="d-block w-100 h-10"
+						/>
+						<div class="carousel-caption">
+							<p>
+								Jörn (umesamiska Jyörra, sydsamiska Jyörra,
+								finska Jyrän) är en tätort i Skellefteå kommun,
+								belägen 54 km nordväst om Skellefteå. Orten
+								ligger i Jörns distrikt (Jörns socken).
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sankt_Mikaels_kyrka%2C_Jörn_01.jpg/1920px-Sankt_Mikaels_kyrka%2C_Jörn_01.jpg"
+							class="d-block w-100 h-10"
+						/>
+						<div class="carousel-caption">
+							<p>
+								En av de äldsta boplatserna i Norrland är
+								Garaselet (cirka 8 000 år gammal), som ligger
+								vid Byskeälven 30 km norr om Jörn.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Jörn_järnvägsstation_2009-07-09.jpg"
+							class="d-block w-100 h-10"
+						/>
+						<div class="carousel-caption">
+							<p>
+								Sedan 1778 var Jörn en by (nuvarande Österjörn)
+								vid Jörnsträsket, sex kilometer öster om dagens
+								Jörn. Nuvarande Jörn är ett stationssamhälle som
+								började byggas upp 1893, nära byn Mossarotträsk
+								(fastigheterna heter fortfarande så).
+							</p>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="prev"
+				>
+					<span
+						class="carousel-control-prev-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="next"
+				>
+					<span
+						class="carousel-control-next-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Joorn_railway_station.jpg/1920px-Joorn_railway_station.jpg" class="d-block w-100 h-10">
-					<div class="carousel-caption">
-						<p>Jörn (umesamiska Jyörra, sydsamiska Jyörra, finska Jyrän) är
-						en tätort i Skellefteå kommun, belägen 54 km nordväst om
-						Skellefteå. Orten ligger i Jörns distrikt (Jörns socken).</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sankt_Mikaels_kyrka%2C_Jörn_01.jpg/1920px-Sankt_Mikaels_kyrka%2C_Jörn_01.jpg" class="d-block w-100 h-10">
-					<div class="carousel-caption">
-						<p>En av de äldsta boplatserna i Norrland är Garaselet (cirka 8
-						000 år gammal), som ligger vid Byskeälven 30 km norr om
-						Jörn.</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Jörn_järnvägsstation_2009-07-09.jpg" class="d-block w-100 h-10">
-					<div class="carousel-caption">
-						<p>Sedan 1778 var Jörn en by (nuvarande Österjörn) vid
-						Jörnsträsket, sex kilometer öster om dagens Jörn. Nuvarande
-						Jörn är ett stationssamhälle som började byggas upp 1893,
-						nära byn Mossarotträsk (fastigheterna heter fortfarande så).</p>
-					</div>
-				</div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
 
-		<div class="d-none">
-			<div class="row">
-				<div class="bg-warning text-success col">warning</div>
-				<div class="bg-success text-warning col">success</div>
-				<div class="bg-danger text-success col">danger</div>
-				<div class="bg-info text-danger col">info</div>
-				<div class="bg-primary text-secondary col">primary</div>
-				<div class="bg-secondary text-primary col">secondary</div>
-				<div class="bg-dark text-light col">dark</div>
-				<div class="bg-black text-light col">black</div>
-				<div class="bg-light text-dark col">light</div>
-				<div class="bg-white text-dark col">white</div>
-				<div class="bg-body text-dark col">body</div>
-			</div>
-			<div class="row">
-				<div class="bg-warning-subtle text-success col">
-					warning subtle
-				</div>
-				<div class="bg-success-subtle text-warning col">
-					success subtle
-				</div>
-				<div class="bg-danger-subtle text-success col">
-					danger subtle
-				</div>
-				<div class="bg-info-subtle text-danger col">info subtle</div>
-				<div class="bg-primary-subtle text-secondary col">
-					primary subtle
-				</div>
-				<div class="bg-secondary-subtle text-primary col">
-					secondary subtle
-				</div>
-				<div class="bg-dark-subtle text-light col">dark subtle</div>
-				<div class="bg-light-subtle text-dark col">light subtle</div>
-			</div>
-			<div class="row">
-				<div class="bg-light text-warning-emphasis col">
-					warning emphasis
-				</div>
-				<div class="bg-light text-success-emphasis col">
-					success emphasis
-				</div>
-				<div class="bg-light text-danger-emphasis col">
-					danger emphasis
-				</div>
-				<div class="bg-light text-info-emphasis col">info emphasis</div>
-				<div class="bg-light text-primary-emphasis col">
-					primary emphasis
-				</div>
-				<div class="bg-light text-secondary-emphasis col">
-					secondary emphasis
-				</div>
-				<div class="bg-light text-light-emphasis col">
-					dark emphasis
-				</div>
-				<div class="bg-light text-dark-emphasis col">
-					light emphasis
-				</div>
-			</div>
-		</div>
-		<footer
-			class="mt-5 bg-dark container-fluid border-top border-black border-5 rounded-none"
-		>
-			<div class="footer container-fluid mt-5 p-5 text-light">
+			<div class="d-none">
 				<div class="row">
-					<div class="col col-1">
-						Jörn Industries <br />4 Kungsgatan <br />383 37 Jörn
+					<div class="bg-warning text-success col">warning</div>
+					<div class="bg-success text-warning col">success</div>
+					<div class="bg-danger text-success col">danger</div>
+					<div class="bg-info text-danger col">info</div>
+					<div class="bg-primary text-secondary col">primary</div>
+					<div class="bg-secondary text-primary col">secondary</div>
+					<div class="bg-dark text-light col">dark</div>
+					<div class="bg-black text-light col">black</div>
+					<div class="bg-light text-dark col">light</div>
+					<div class="bg-white text-dark col">white</div>
+					<div class="bg-body text-dark col">body</div>
+				</div>
+				<div class="row">
+					<div class="bg-warning-subtle text-success col">
+						warning subtle
 					</div>
-					<div class="col col-8"></div>
-					<div class="col col-1">
-						<div
-							onclick="window.location.href='#/careers.html'"
-							class="text-center"
-						>
-							<div class="text-info-emphasis">
-								Vi växer alltid vårat lag <br />
-								<hr />
-								<br />Ansöka anställning hos oss
+					<div class="bg-success-subtle text-warning col">
+						success subtle
+					</div>
+					<div class="bg-danger-subtle text-success col">
+						danger subtle
+					</div>
+					<div class="bg-info-subtle text-danger col">
+						info subtle
+					</div>
+					<div class="bg-primary-subtle text-secondary col">
+						primary subtle
+					</div>
+					<div class="bg-secondary-subtle text-primary col">
+						secondary subtle
+					</div>
+					<div class="bg-dark-subtle text-light col">dark subtle</div>
+					<div class="bg-light-subtle text-dark col">
+						light subtle
+					</div>
+				</div>
+				<div class="row">
+					<div class="bg-light text-warning-emphasis col">
+						warning emphasis
+					</div>
+					<div class="bg-light text-success-emphasis col">
+						success emphasis
+					</div>
+					<div class="bg-light text-danger-emphasis col">
+						danger emphasis
+					</div>
+					<div class="bg-light text-info-emphasis col">
+						info emphasis
+					</div>
+					<div class="bg-light text-primary-emphasis col">
+						primary emphasis
+					</div>
+					<div class="bg-light text-secondary-emphasis col">
+						secondary emphasis
+					</div>
+					<div class="bg-light text-light-emphasis col">
+						dark emphasis
+					</div>
+					<div class="bg-light text-dark-emphasis col">
+						light emphasis
+					</div>
+				</div>
+			</div>
+			<footer
+				class="mt-5 bg-dark container-fluid border-top border-black border-5 rounded-none"
+			>
+				<div class="footer container-fluid mt-5 p-5 text-light">
+					<div class="row">
+						<div class="col col-1">
+							Jörn Industries <br />4 Kungsgatan <br />383 37 Jörn
+						</div>
+						<div class="col col-8"></div>
+						<div class="col col-1">
+							<div
+								onclick="window.location.href='#/careers.html'"
+								class="text-center"
+							>
+								<div class="text-white">
+									Vi växer alltid vårat lag <br />
+									<hr />Ansöka anställning hos oss
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 			crossorigin="anonymous"
